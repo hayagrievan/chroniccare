@@ -1,0 +1,67 @@
+[
+  {
+    "consentId": "CON-001",
+    "patientId": "PAT-001",
+    "phrn": "PHRN-IND-2026-000001",
+    "doctorId": "dr-priya-nair",
+    "doctorName": "Dr. Priya Nair",
+    "status": "Approved",
+    "requestedAt": "2026-01-10T09:00:00.000Z",
+    "approvedAt": "2026-01-10T09:05:00.000Z",
+    "revokedAt": null,
+    "expiresAt": null,
+    "purpose": "Ongoing chronic disease management"
+  },
+  {
+    "consentId": "CON-002",
+    "patientId": "PAT-002",
+    "phrn": "PHRN-IND-2026-000002",
+    "doctorId": "dr-priya-nair",
+    "doctorName": "Dr. Priya Nair",
+    "status": "Approved",
+    "requestedAt": "2026-01-12T10:00:00.000Z",
+    "approvedAt": "2026-01-12T10:10:00.000Z",
+    "revokedAt": null,
+    "expiresAt": null,
+    "purpose": "Diabetes monitoring and treatment"
+  },
+  {
+    "consentId": "CON-003",
+    "patientId": "PAT-003",
+    "phrn": "PHRN-IND-2026-000003",
+    "doctorId": "dr-priya-nair",
+    "doctorName": "Dr. Priya Nair",
+    "status": "Approved",
+    "requestedAt": "2026-01-08T11:00:00.000Z",
+    "approvedAt": "2026-01-08T11:30:00.000Z",
+    "revokedAt": null,
+    "expiresAt": null,
+    "purpose": "Hypertension management"
+  },
+  {
+    "consentId": "CON-004",
+    "patientId": "PAT-004",
+    "phrn": "PHRN-IND-2026-000004",
+    "doctorId": "dr-priya-nair",
+    "doctorName": "Dr. Priya Nair",
+    "status": "Approved",
+    "requestedAt": "2026-01-15T14:00:00.000Z",
+    "approvedAt": "2026-01-15T14:20:00.000Z",
+    "revokedAt": null,
+    "expiresAt": null,
+    "purpose": "Stress and mental health monitoring"
+  },
+  {
+    "consentId": "CON-005",
+    "patientId": "PAT-005",
+    "phrn": "PHRN-IND-2026-000005",
+    "doctorId": "dr-priya-nair",
+    "doctorName": "Dr. Priya Nair",
+    "status": "Approved",
+    "requestedAt": "2026-01-05T08:00:00.000Z",
+    "approvedAt": "2026-01-05T08:15:00.000Z",
+    "revokedAt": null,
+    "expiresAt": null,
+    "purpose": "Cardiac monitoring post-PCI"
+  }
+]

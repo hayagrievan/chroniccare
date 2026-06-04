@@ -1,0 +1,221 @@
+[
+  {
+    "action": "ADHERENCE_RECORDED",
+    "patientId": "PAT-001",
+    "medicineId": "MED-002",
+    "medicineName": "Atorvastatin",
+    "status": "skipped",
+    "date": "2026-06-03",
+    "timestamp": "2026-06-03T13:38:06.335Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-001",
+    "riskLevel": "Medium",
+    "riskScore": 52,
+    "timestamp": "2026-06-03T13:37:55.367Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-001",
+    "riskLevel": "Medium",
+    "riskScore": 52,
+    "timestamp": "2026-06-03T13:37:55.329Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-005",
+    "riskLevel": "Medium",
+    "riskScore": 46,
+    "timestamp": "2026-06-03T13:37:09.382Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-004",
+    "riskLevel": "Low",
+    "riskScore": 24,
+    "timestamp": "2026-06-03T13:37:09.361Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-003",
+    "riskLevel": "Medium",
+    "riskScore": 43,
+    "timestamp": "2026-06-03T13:37:09.321Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-002",
+    "riskLevel": "Low",
+    "riskScore": 18,
+    "timestamp": "2026-06-03T13:37:09.273Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-001",
+    "riskLevel": "Medium",
+    "riskScore": 52,
+    "timestamp": "2026-06-03T13:37:09.239Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-670586",
+    "riskLevel": "Low",
+    "riskScore": 21,
+    "timestamp": "2026-06-03T13:37:09.164Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-005",
+    "riskLevel": "Medium",
+    "riskScore": 46,
+    "timestamp": "2026-06-03T13:37:09.113Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-004",
+    "riskLevel": "Low",
+    "riskScore": 24,
+    "timestamp": "2026-06-03T13:37:09.095Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-003",
+    "riskLevel": "Medium",
+    "riskScore": 43,
+    "timestamp": "2026-06-03T13:37:09.023Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-002",
+    "riskLevel": "Low",
+    "riskScore": 18,
+    "timestamp": "2026-06-03T13:37:08.989Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-001",
+    "riskLevel": "Medium",
+    "riskScore": 52,
+    "timestamp": "2026-06-03T13:37:08.954Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-670586",
+    "riskLevel": "Low",
+    "riskScore": 21,
+    "timestamp": "2026-06-03T13:37:08.875Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-001",
+    "riskLevel": "Medium",
+    "riskScore": 52,
+    "timestamp": "2026-06-03T13:36:12.256Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-001",
+    "riskLevel": "Medium",
+    "riskScore": 52,
+    "timestamp": "2026-06-03T13:36:12.050Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-001",
+    "riskLevel": "Medium",
+    "riskScore": 52,
+    "timestamp": "2026-06-03T13:33:42.176Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-001",
+    "riskLevel": "Medium",
+    "riskScore": 52,
+    "timestamp": "2026-06-03T13:33:42.144Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-005",
+    "riskLevel": "Medium",
+    "riskScore": 46,
+    "timestamp": "2026-06-03T13:33:02.374Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-004",
+    "riskLevel": "Low",
+    "riskScore": 24,
+    "timestamp": "2026-06-03T13:33:02.347Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-003",
+    "riskLevel": "Medium",
+    "riskScore": 43,
+    "timestamp": "2026-06-03T13:33:02.293Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-002",
+    "riskLevel": "Low",
+    "riskScore": 18,
+    "timestamp": "2026-06-03T13:33:02.237Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-001",
+    "riskLevel": "Medium",
+    "riskScore": 52,
+    "timestamp": "2026-06-03T13:33:02.192Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-670586",
+    "riskLevel": "Low",
+    "riskScore": 21,
+    "timestamp": "2026-06-03T13:33:02.150Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-005",
+    "riskLevel": "Medium",
+    "riskScore": 46,
+    "timestamp": "2026-06-03T13:33:02.108Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-004",
+    "riskLevel": "Low",
+    "riskScore": 24,
+    "timestamp": "2026-06-03T13:33:02.078Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-003",
+    "riskLevel": "Medium",
+    "riskScore": 43,
+    "timestamp": "2026-06-03T13:33:02.026Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-002",
+    "riskLevel": "Low",
+    "riskScore": 18,
+    "timestamp": "2026-06-03T13:33:01.892Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-670586",
+    "riskLevel": "Low",
+    "riskScore": 21,
+    "timestamp": "2026-06-03T13:33:01.875Z"
+  },
+  {
+    "action": "RISK_PREDICTION",
+    "patientId": "PAT-001",
+    "riskLevel": "Medium",
+    "riskScore": 52,
+    "timestamp": "2026-06-03T13:33:01.859Z"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "prescriptionId": "RX-1780395523081",
+    "patientId": "PAT-670586",
+    "patientName": "Diabetes Profile sample report",
+    "disease": "Sugar",
+    "doctorId": "dr-priya-nair",
+    "doctorName": "Dr. Priya Nair",
+    "items": [
+      {
+        "medicineId": "MED-001",
+        "medicineName": "Aspirin",
+        "strength": "75 mg",
+        "form": "Tablet",
+        "dosage": "1 tablet",
+        "frequency": "Once daily",
+        "duration": "14 days",
+        "quantity": 1,
+        "instructions": ""
+      }
+    ],
+    "diagnosis": "vkhv",
+    "notes": "",
+    "status": "Pending",
+    "pharmacyShared": false,
+    "createdAt": "2026-06-02T10:18:43.092Z"
+  }
+]

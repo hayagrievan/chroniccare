@@ -1,0 +1,181 @@
+{
+    "adminStats": {
+        "totalPatients": 284750,
+        "highRiskAlertsToday": 342,
+        "activeDoctors": 1847,
+        "criticalRegions": 8
+    },
+    "regionOptions": {
+        "states": [
+            "Karnataka",
+            "Tamil Nadu",
+            "Maharashtra",
+            "Delhi",
+            "Telangana",
+            "Gujarat"
+        ],
+        "cities": {
+            "Karnataka": [
+                "Bengaluru",
+                "Mysuru",
+                "Hubli",
+                "Mangaluru"
+            ],
+            "Tamil Nadu": [
+                "Chennai",
+                "Coimbatore",
+                "Madurai",
+                "Salem"
+            ],
+            "Maharashtra": [
+                "Mumbai",
+                "Pune",
+                "Nashik",
+                "Nagpur"
+            ],
+            "Delhi": [
+                "New Delhi",
+                "Dwarka",
+                "Rohini",
+                "Noida"
+            ],
+            "Telangana": [
+                "Hyderabad",
+                "Warangal",
+                "Nizamabad"
+            ],
+            "Gujarat": [
+                "Ahmedabad",
+                "Surat",
+                "Vadodara"
+            ]
+        }
+    },
+    "diseasePrevalenceData": [
+        {
+            "region": "Bengaluru",
+            "Heart": 4200,
+            "BP": 6800,
+            "Sugar": 7200,
+            "Stress": 3100
+        },
+        {
+            "region": "Chennai",
+            "Heart": 5100,
+            "BP": 7400,
+            "Sugar": 8900,
+            "Stress": 2800
+        },
+        {
+            "region": "Mumbai",
+            "Heart": 6300,
+            "BP": 8100,
+            "Sugar": 9500,
+            "Stress": 4200
+        },
+        {
+            "region": "Hyderabad",
+            "Heart": 3800,
+            "BP": 5900,
+            "Sugar": 7100,
+            "Stress": 2500
+        },
+        {
+            "region": "Delhi",
+            "Heart": 7200,
+            "BP": 9300,
+            "Sugar": 10200,
+            "Stress": 5100
+        },
+        {
+            "region": "Ahmedabad",
+            "Heart": 3200,
+            "BP": 5100,
+            "Sugar": 6300,
+            "Stress": 1900
+        }
+    ],
+    "growthTrendData": [
+        {
+            "month": "Mar '25",
+            "Heart": 12400,
+            "BP": 22100,
+            "Sugar": 28500,
+            "Stress": 9200
+        },
+        {
+            "month": "May '25",
+            "Heart": 13200,
+            "BP": 23800,
+            "Sugar": 30100,
+            "Stress": 9800
+        },
+        {
+            "month": "Jul '25",
+            "Heart": 14100,
+            "BP": 25200,
+            "Sugar": 32400,
+            "Stress": 10500
+        },
+        {
+            "month": "Sep '25",
+            "Heart": 15000,
+            "BP": 26900,
+            "Sugar": 34700,
+            "Stress": 11200
+        },
+        {
+            "month": "Nov '25",
+            "Heart": 15800,
+            "BP": 28100,
+            "Sugar": 36500,
+            "Stress": 12000
+        },
+        {
+            "month": "Jan '26",
+            "Heart": 16900,
+            "BP": 29800,
+            "Sugar": 38900,
+            "Stress": 12800
+        },
+        {
+            "month": "Feb '26",
+            "Heart": 17400,
+            "BP": 30500,
+            "Sugar": 40200,
+            "Stress": 13300
+        }
+    ],
+    "districtData": [
+        {
+            "district": "Central",
+            "patients": 14200,
+            "highRisk": 2100,
+            "growth": "+12%"
+        },
+        {
+            "district": "North",
+            "patients": 22400,
+            "highRisk": 3400,
+            "growth": "+8%"
+        },
+        {
+            "district": "South",
+            "patients": 19800,
+            "highRisk": 2800,
+            "growth": "+15%"
+        },
+        {
+            "district": "East",
+            "patients": 16500,
+            "highRisk": 2300,
+            "growth": "+6%"
+        },
+        {
+            "district": "West",
+            "patients": 21000,
+            "highRisk": 3100,
+            "growth": "+11%"
+        }
+    ]
+}

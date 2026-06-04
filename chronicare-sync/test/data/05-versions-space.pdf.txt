@@ -1,0 +1,131 @@
+
+
+Test NameResultUnitBio. Ref. IntervalMethod
+GLUCOSE, FASTING , NAF PLASMA161mg/dL70-100Hexokinase
+Comment:
+As per American Diabetes Guidelines, 2023
+Fasting Glucose Values in mg/dLInterpretation
+70-100 mg/dLNormal
+100-125 mg/dLPrediabetes
+≥126 mg/dLDiabetes
+<70 mg/dLHypoglycemia
+Note:
+1.The diagnosis of Diabetes requires a fasting plasma glucose of > or = 126 mg/dL and/or a random / 2 hr post glucose value of 
+ > or = 200 mg/dL on at least 2 occasions.
+2. Very high glucose levels (>450 mg/dL in adults) may result in Diabetic Ketoacidosis & is considered critical.
+ 
+Test NameResultUnitBio. Ref. IntervalMethod
+GLUCOSE, POST PRANDIAL (PP), 2
+HOURS , SODIUM FLUORIDE PLASMA (2
+HR)
+256mg/dLNon-diabetic <140 ~
+Impaired glucose
+Tolerance 140 - 200 ~
+Diabetic >200
+Hexokinase
+Comment:
+It is recommended that FBS and PPBS should be interpreted with respect to their Biological reference ranges and not with each
+other.
+Conditions which may lead to lower postprandial glucose levels as compared to fasting glucose levels may be due to reactive
+hypoglycemia, dietary meal content, duration or timing of sampling after food digestion and absorption, medications such as insulin
+preparations, sulfonylureas, amylin analogues, or conditions such as overproduction of insulin.
+Patient Name: Mrs.GEETHA S
+Age/Gender: 51 Y 0 M 10 D/F
+UHID/MR No: CANN.0000128342
+Visit ID: CVGSOPV1298
+Ref Doctor: Self
+  
+Collected: 23/Nov/2025 11:29AM
+Received: 23/Nov/2025 05:12PM
+Reported: 23/Nov/2025 06:23PM
+Status: Final Report
+Centre Name: VGN STAFFORD - SOCIETY CLINIC
+  
+DEPARTMENT OF BIOCHEMISTRY
+SIN No:VGS251100103
+This sample has been processed in Apollo Health & Lifestyle Limited – Central Reference Laboratory.
+Page 1 of 2
+
+Test NameResultUnitBio. Ref. IntervalMethod
+HBA1C (GLYCATED HEMOGLOBIN) , WHOLE BLOOD EDTA
+HBA1C, GLYCATED HEMOGLOBIN8%HPLC
+ESTIMATED AVERAGE GLUCOSE
+(eAG)
+183mg/dLCalculated
+Comment:
+Reference Range as per American Diabetes Association (ADA) 2023 Guidelines: 
+REFERENCE GROUPHBA1C  %
+NON DIABETIC<5.7
+PREDIABETES5.7 – 6.4
+DIABETES≥ 6.5
+DIABETICS 
+EXCELLENT CONTROL6 – 7
+FAIR TO GOOD CONTROL7 – 8
+UNSATISFACTORY CONTROL8 – 10
+POOR CONTROL>10
+ Note: Dietary preparation or fasting is not required.
+1. HbA1C is recommended by American Diabetes Association for Diagnosing Diabetes and monitoring Glycemic     
+Control by American Diabetes Association guidelines 2023.
+2. Trends in HbA1C values is a better indicator of Glycemic control than a single test.
+3. Low HbA1C in Non-Diabetic patients are associated with Anemia (Iron Deficiency/Hemolytic), Liver Disorders, Chronic Kidney Disease. Clinical Correlation is
+advised in interpretation of low Values. 
+4. Falsely low HbA1c (below 4%) may be observed in patients with clinical conditions that shorten erythrocyte life span or decrease mean erythrocyte age. HbA1c may
+not accurately reflect glycemic control when clinical conditions that affect erythrocyte survival are present.
+5. In cases of Interference of Hemoglobin variants in HbA1C, alternative methods (Fructosamine) estimation is recommended for Glycemic Control
+       A: HbF >25%
+       B: Homozygous Hemoglobinopathy.
+     (Hb Electrophoresis is recommended method for detection of Hemoglobinopathy) 
+ 
+ 
+*** End Of Report ***
+Patient Name: Mrs.GEETHA S
+Age/Gender: 51 Y 0 M 10 D/F
+UHID/MR No: CANN.0000128342
+Visit ID: CVGSOPV1298
+Ref Doctor: Self
+  
+Collected: 23/Nov/2025 11:29AM
+Received: 23/Nov/2025 05:08PM
+Reported: 23/Nov/2025 05:58PM
+Status: Final Report
+Centre Name: VGN STAFFORD - SOCIETY CLINIC
+  
+DEPARTMENT OF BIOCHEMISTRY
+SIN No:VGS251100101
+This sample has been processed in Apollo Health & Lifestyle Limited – Central Reference Laboratory.
+Page 2 of 2
+
+TERMS AND CONDITIONS GOVERNING THIS REPORT
+1. Reported results are for information and interpretation of the referring doctor or such other medical professionals, who understand
+reporting units, reference ranges and limitation of technologies. Laboratories not be responsible for any interpretation whatsoever
+2. This is computer generated medical diagnostics report that has been validated by an Authorized Medical Practitioner/Doctor. The
+report does not need physical signature.
+3. Partial reproduction of this report is not valid and should not be resorted to draw any conclusion.
+4. In the case you are not the intended recipient of this report. Please immediately return the same to the concerned issuing desk. Any
+disclosure, copy or distribution of any contents of this report, is unlawful and is strictly prohibited.
+5. Results delays may occur due to unforeseen circumstances such as non-availability of kits, equipment breakdown, natural calamities,
+IT downtime, logistic delays or any other unavoidable event. For certain tests based on analyte stability, criticality of results and in the
+interest of patient for having appropriate medical diagnosis, the same test may be outsourced to other accredited laboratory.
+6. It is presumed that the tests performed are, on the specimen / sample being to the patient named or identified and the verifications of
+particulars have been confirmed by the patient or his / her representative at the point of generation of said specimen
+7. The reported results are restricted to the given specimen only. Results may vary from lab to lab and from time to time for the same
+parameter for the same patient (within subject biological variation).
+8. The patient details along with their results in certain cases like notifiable diseases and as per local regulatory requirements will be
+communicated to the assigned regulatory bodies
+9. The patient samples can be used as part of internal quality control, test verification, data analysis purposes within the testing scope of
+the laboratory.
+10. This report is not valid for medico legal purposes. It is performed to facilitate medical diagnosis only
+Patient Name: Mrs.GEETHA S
+Age/Gender: 51 Y 0 M 10 D/F
+UHID/MR No: CANN.0000128342
+Visit ID: CVGSOPV1298
+Ref Doctor: Self
+  
+Collected: 23/Nov/2025 11:29AM
+Received: 23/Nov/2025 05:08PM
+Reported: 23/Nov/2025 05:58PM
+Status: Final Report
+Centre Name: VGN STAFFORD - SOCIETY CLINIC
+  
+SIN No:VGS251100101
+This sample has been processed in Apollo Health & Lifestyle Limited – Central Reference Laboratory.

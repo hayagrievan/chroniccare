@@ -1,0 +1,586 @@
+[
+  {
+    "id": "PAT-670586",
+    "name": "Diabetes Profile sample report",
+    "age": 46,
+    "gender": "Female",
+    "phone": "",
+    "email": "",
+    "address": "",
+    "disease": "Sugar",
+    "riskLevel": "High",
+    "assignedDoctor": "Dr. M. Jaksch",
+    "profileImage": "",
+    "uploadedReports": [],
+    "lastVisit": "2026-02-28",
+    "nextAppointment": "2026-03-14",
+    "clinicalMetrics": [
+      {
+        "label": "Glucose",
+        "value": "83",
+        "unit": "mg/dl",
+        "trend": "stable",
+        "status": "normal"
+      },
+      {
+        "label": "Cholesterol, total",
+        "value": "221",
+        "unit": "mg/dl",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "Triglycerides",
+        "value": "1315",
+        "unit": "mg/dl",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "HDL Cholesterol, direct",
+        "value": "22.5",
+        "unit": "mg/dl",
+        "trend": "down",
+        "status": "warning"
+      },
+      {
+        "label": "LDL Cholesterol, direct",
+        "value": "36",
+        "unit": "mg/dl",
+        "trend": "stable",
+        "status": "normal"
+      },
+      {
+        "label": "Cholesterol, total",
+        "value": "5.7",
+        "unit": "mmol/l",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "Triglycerides",
+        "value": "14.8",
+        "unit": "mmol/l",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "HDL Cholesterol, direct",
+        "value": "0.6",
+        "unit": "mmol/l",
+        "trend": "down",
+        "status": "warning"
+      },
+      {
+        "label": "LDL Cholesterol, direct",
+        "value": "0.9",
+        "unit": "mmol/l",
+        "trend": "stable",
+        "status": "normal"
+      },
+      {
+        "label": "Albumin",
+        "value": "4.5",
+        "unit": "g/dl",
+        "trend": "stable",
+        "status": "normal"
+      },
+      {
+        "label": "Urea Nitrogen",
+        "value": "9",
+        "unit": "mg/dl",
+        "trend": "stable",
+        "status": "normal"
+      },
+      {
+        "label": "Creatinine",
+        "value": "0.7",
+        "unit": "mg/dl",
+        "trend": "stable",
+        "status": "normal"
+      },
+      {
+        "label": "Total Protein",
+        "value": "7.1",
+        "unit": "g/dl",
+        "trend": "stable",
+        "status": "normal"
+      },
+      {
+        "label": "Hb A1c",
+        "value": "3.8",
+        "unit": "%",
+        "trend": "stable",
+        "status": "normal"
+      }
+    ],
+    "suggestedActions": [
+      "Daily glucose monitoring",
+      "Lipid profile monitoring",
+      "Consult a cardiologist"
+    ],
+    "historyTimeline": [
+      {
+        "date": "27.04.2019",
+        "title": "Sampling",
+        "summary": "Patient's blood sample was taken for laboratory tests.",
+        "riskLevel": "High",
+        "doctor": "Dr. M. Jaksch"
+      },
+      {
+        "date": "28.04.2019",
+        "title": "Report Generation",
+        "summary": "Laboratory report was generated based on the patient's test results.",
+        "riskLevel": "High",
+        "doctor": "Dr. M. Jaksch"
+      }
+    ],
+    "llmSummary": "Patient has high glucose and triglyceride levels, indicating a high risk of diabetes and cardiovascular disease. The patient's HbA1c level is within the normal range.",
+    "riskReason": "High glucose and triglyceride levels indicate a high risk of diabetes and cardiovascular disease.",
+    "extractedText": "Report Date: 28.04.2019\n Physician:\n Dr. M. Jaksch\n Freiburg Medical Lab\nLaboratory Report\nOnline Version\nRemarks: \nNote:\nOur reference values are adjusted to age and gender.\nDaily internal Quality Control within the required range \n(according to ISO 15189).\nExternal Quality Control available on request.\n^ non-accredited parameter\n\"This parameter is affected by Biotin intake of >5 mg \n  (RDI = 0.03mg)\n* This investigation has been performed in a collaborating \naccredited laboratory (Germany).\nPage 1 of 3\n  Patient Name: Diabetes Profile sample report       \n Gender:Female\n Date of Birth:01.01.1973\n Nationality:\n Your ID:\nTest Request Code:1278\nSample ID:\nPatient IDNo:       380032\nSampling Date / Time:27.04.2019 / 17:09 \nReceipt Date / Time: 27.04.2019 /  17:09\nThis report has been printed through Imed-Online-Reporting-System and therefore does not carry a signature.\nInsurance:\nFreiburg Medical Laboratory Middle East (L.L.C.)\nP.O. Box: 3068, Dubai - UAE, Tel: 04 396 2227, Fax: 04 396 2228\nE-mail: info@fml-dubai.com, Website: www.fml-dubai.com\n Techn. Validation by    Dr. Nehmat ElBanna    PD Dr. med. habil. M. Jaksch \n   Med. Technologist              SpecialistAssociate Professor\n     (Supervisor of        Clinical Pathology (U/S)          Medical Director  \n    the Department)            (DHA-P-0084548)(DHA-LS-240710)\nAnalysis\nResult\nFlag\nUnitsReference Range\nProteins/Metabolites (Serum)\nGlucose (Recommendation of the American Diabetes Association)\nGlucose fasting (PHO)         \n    83\nmg/dl               70 - 99             \nPlease note that we have adjusted our reference ranges according to the\nrecommendations of the American Diabetes Association:\nGlucose Level\n70 - 99     Normal fasting glucose\n100 - 125   Impaired fasting glucose (pre-diabetes)\n>126        Suspicion of diabetes\nPlease note that glucose in full blood without stabilizers such\nas NaF is only stable for 10 minutes. Please send us NaF blood.\nProteins/Metabolites (Serum)\nLipid Studies in mg/dl (Reco"
+  },
+  {
+    "id": "PAT-001",
+    "name": "Arjun Sharma",
+    "age": 58,
+    "gender": "Male",
+    "disease": "Heart",
+    "riskLevel": "High",
+    "phone": "+91 98765 43210",
+    "email": "arjun.sharma@email.com",
+    "address": "42, MG Road, Bengaluru, Karnataka",
+    "lastVisit": "2026-02-20",
+    "nextAppointment": "2026-03-05",
+    "assignedDoctor": "Dr. Priya Nair",
+    "profileImage": "",
+    "uploadedReports": [],
+    "clinicalMetrics": [
+      {
+        "label": "Heart Rate",
+        "value": "94",
+        "unit": "bpm",
+        "trend": "up",
+        "status": "warning"
+      },
+      {
+        "label": "Blood Pressure",
+        "value": "148/96",
+        "unit": "mmHg",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "Cholesterol",
+        "value": "245",
+        "unit": "mg/dL",
+        "trend": "stable",
+        "status": "critical"
+      },
+      {
+        "label": "Ejection Fraction",
+        "value": "38",
+        "unit": "%",
+        "trend": "down",
+        "status": "critical"
+      },
+      {
+        "label": "SpO2",
+        "value": "96",
+        "unit": "%",
+        "trend": "stable",
+        "status": "warning"
+      },
+      {
+        "label": "BMI",
+        "value": "29.2",
+        "unit": "kg/m²",
+        "trend": "up",
+        "status": "warning"
+      }
+    ],
+    "suggestedActions": [
+      "Schedule urgent cardiology consultation within 48 hours",
+      "Increase Metoprolol dosage to 100mg — confirm with cardiologist",
+      "Recommend DASH diet: reduce sodium intake to <2g/day",
+      "Prescribe cardiac rehabilitation program (3 sessions/week)",
+      "Order repeat echocardiogram in 4 weeks",
+      "Monitor daily BP at home — log readings via app"
+    ],
+    "historyTimeline": [
+      {
+        "date": "Feb 20, 2026",
+        "title": "Cardiac Assessment",
+        "summary": "EF dropped to 38%, BP elevated. ECG showed mild ST depression. Medication adjusted.",
+        "riskLevel": "High",
+        "doctor": "Dr. Priya Nair"
+      },
+      {
+        "date": "Jan 15, 2026",
+        "title": "Follow-up Consultation",
+        "summary": "Patient reported chest tightness. Stress test performed. Moderate exertional angina noted.",
+        "riskLevel": "High",
+        "doctor": "Dr. Priya Nair"
+      },
+      {
+        "date": "Dec 10, 2025",
+        "title": "Routine Checkup",
+        "summary": "Cholesterol elevated at 245mg/dL. Statin therapy initiated. BP at 142/90.",
+        "riskLevel": "Medium",
+        "doctor": "Dr. Rajesh Kumar"
+      },
+      {
+        "date": "Oct 5, 2025",
+        "title": "Initial Diagnosis",
+        "summary": "Diagnosed with ischemic heart disease. Started on aspirin, beta-blocker therapy.",
+        "riskLevel": "Medium",
+        "doctor": "Dr. Rajesh Kumar"
+      }
+    ],
+    "llmSummary": "Patient Arjun Sharma, 58M, presents with advanced ischemic heart disease. Recent echocardiogram reveals significantly reduced ejection fraction (38%), indicating moderate-to-severe systolic dysfunction. Blood pressure remains critically elevated (148/96 mmHg) despite ongoing antihypertensive therapy. Immediate escalation of cardiac intervention is recommended."
+  },
+  {
+    "id": "PAT-002",
+    "name": "Meera Krishnamurthy",
+    "age": 45,
+    "gender": "Female",
+    "disease": "Sugar",
+    "riskLevel": "Medium",
+    "phone": "+91 87654 32109",
+    "email": "meera.k@email.com",
+    "address": "15, Anna Nagar, Chennai, Tamil Nadu",
+    "lastVisit": "2026-02-18",
+    "nextAppointment": "2026-03-10",
+    "assignedDoctor": "Dr. Priya Nair",
+    "profileImage": "",
+    "uploadedReports": [],
+    "clinicalMetrics": [
+      {
+        "label": "HbA1c",
+        "value": "8.2",
+        "unit": "%",
+        "trend": "up",
+        "status": "warning"
+      },
+      {
+        "label": "Fasting Glucose",
+        "value": "142",
+        "unit": "mg/dL",
+        "trend": "stable",
+        "status": "warning"
+      },
+      {
+        "label": "Post-prandial",
+        "value": "210",
+        "unit": "mg/dL",
+        "trend": "down",
+        "status": "critical"
+      },
+      {
+        "label": "Insulin Resistance",
+        "value": "3.8",
+        "unit": "HOMA-IR",
+        "trend": "stable",
+        "status": "warning"
+      },
+      {
+        "label": "Creatinine",
+        "value": "1.1",
+        "unit": "mg/dL",
+        "trend": "stable",
+        "status": "normal"
+      },
+      {
+        "label": "BMI",
+        "value": "27.8",
+        "unit": "kg/m²",
+        "trend": "down",
+        "status": "warning"
+      }
+    ],
+    "suggestedActions": [
+      "Optimize insulin regimen — consider switching to basal-bolus therapy",
+      "Refer to diabetes educator for carb counting training",
+      "Annual retinal screening — schedule with ophthalmology",
+      "Foot examination for early neuropathy signs",
+      "Monitor kidney function with quarterly creatinine/eGFR"
+    ],
+    "historyTimeline": [
+      {
+        "date": "Feb 18, 2026",
+        "title": "Diabetes Review",
+        "summary": "HbA1c increased to 8.2%. Medication adjusted. Patient advised dietary compliance.",
+        "riskLevel": "Medium",
+        "doctor": "Dr. Priya Nair"
+      },
+      {
+        "date": "Nov 20, 2025",
+        "title": "Quarterly Follow-up",
+        "summary": "HbA1c at 7.8%. Good dietary compliance noted. Foot exam normal.",
+        "riskLevel": "Medium",
+        "doctor": "Dr. Priya Nair"
+      },
+      {
+        "date": "Aug 5, 2025",
+        "title": "Endocrinology Consult",
+        "summary": "Type 2 DM management optimized. Metformin 1g BD continued. Added Sitagliptin.",
+        "riskLevel": "Low",
+        "doctor": "Dr. Anand Mehta"
+      }
+    ],
+    "llmSummary": "Patient Meera Krishnamurthy, 45F, with Type 2 Diabetes Mellitus showing suboptimal glycemic control. HbA1c of 8.2% indicates above-target glucose levels. Post-prandial spikes are a major concern. Ophthalmological and podiatric screening are overdue."
+  },
+  {
+    "id": "PAT-003",
+    "name": "Venkatesh Iyer",
+    "age": 62,
+    "gender": "Male",
+    "disease": "BP",
+    "riskLevel": "High",
+    "phone": "+91 76543 21098",
+    "email": "v.iyer@email.com",
+    "address": "8, Banjara Hills, Hyderabad, Telangana",
+    "lastVisit": "2026-02-22",
+    "nextAppointment": "2026-03-01",
+    "assignedDoctor": "Dr. Priya Nair",
+    "profileImage": "",
+    "uploadedReports": [],
+    "clinicalMetrics": [
+      {
+        "label": "Systolic BP",
+        "value": "168",
+        "unit": "mmHg",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "Diastolic BP",
+        "value": "104",
+        "unit": "mmHg",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "Pulse Rate",
+        "value": "88",
+        "unit": "bpm",
+        "trend": "stable",
+        "status": "warning"
+      },
+      {
+        "label": "Cholesterol",
+        "value": "198",
+        "unit": "mg/dL",
+        "trend": "down",
+        "status": "normal"
+      },
+      {
+        "label": "Potassium",
+        "value": "3.4",
+        "unit": "mEq/L",
+        "trend": "down",
+        "status": "warning"
+      },
+      {
+        "label": "eGFR",
+        "value": "62",
+        "unit": "mL/min",
+        "trend": "down",
+        "status": "warning"
+      }
+    ],
+    "suggestedActions": [
+      "URGENT: Evaluate for hypertensive emergency — BP 168/104",
+      "Add amlodipine 5mg to current regimen immediately",
+      "24-hour ambulatory BP monitoring (ABPM)",
+      "Check for end-organ damage: renal function, fundoscopy",
+      "Strict sodium restriction (<1.5g/day)",
+      "Supplement potassium (KCl) — monitor levels weekly"
+    ],
+    "historyTimeline": [
+      {
+        "date": "Feb 22, 2026",
+        "title": "Hypertension Crisis Review",
+        "summary": "BP 168/104, highest recorded. Adjusted medications. Admitted for observation.",
+        "riskLevel": "High",
+        "doctor": "Dr. Priya Nair"
+      },
+      {
+        "date": "Jan 8, 2026",
+        "title": "Monthly BP Check",
+        "summary": "BP stabilizing at 145/92. Medication compliance confirmed. Diet advice given.",
+        "riskLevel": "Medium",
+        "doctor": "Dr. Priya Nair"
+      }
+    ],
+    "llmSummary": "Patient Venkatesh Iyer, 62M, with Stage 2 hypertension and early CKD (eGFR 62). BP dangerously elevated at 168/104 mmHg — hypertensive urgency. Potassium low, possibly diuretic-induced hypokalemia. Immediate medication adjustment and close monitoring required."
+  },
+  {
+    "id": "PAT-004",
+    "name": "Lakshmi Patel",
+    "age": 35,
+    "gender": "Female",
+    "disease": "Stress",
+    "riskLevel": "Low",
+    "phone": "+91 65432 10987",
+    "email": "lakshmi.p@email.com",
+    "address": "23, Satellite Road, Ahmedabad, Gujarat",
+    "lastVisit": "2026-02-15",
+    "nextAppointment": "2026-03-15",
+    "assignedDoctor": "Dr. Priya Nair",
+    "profileImage": "",
+    "uploadedReports": [],
+    "clinicalMetrics": [
+      {
+        "label": "Cortisol",
+        "value": "22.4",
+        "unit": "µg/dL",
+        "trend": "up",
+        "status": "warning"
+      },
+      {
+        "label": "Heart Rate (rest)",
+        "value": "78",
+        "unit": "bpm",
+        "trend": "stable",
+        "status": "normal"
+      },
+      {
+        "label": "Sleep Quality",
+        "value": "5.2",
+        "unit": "/10",
+        "trend": "down",
+        "status": "warning"
+      },
+      {
+        "label": "BP",
+        "value": "118/76",
+        "unit": "mmHg",
+        "trend": "stable",
+        "status": "normal"
+      },
+      {
+        "label": "Anxiety Score",
+        "value": "14",
+        "unit": "GAD-7",
+        "trend": "up",
+        "status": "warning"
+      },
+      {
+        "label": "HRV",
+        "value": "42",
+        "unit": "ms",
+        "trend": "down",
+        "status": "warning"
+      }
+    ],
+    "suggestedActions": [
+      "Initiate CBT (Cognitive Behavioral Therapy) sessions — 8 weeks",
+      "Prescribe mindfulness-based stress reduction (MBSR) program",
+      "Low-dose SSRI consideration — requires psychiatrist referral",
+      "Encourage regular aerobic exercise: 30 min, 5 days/week",
+      "Sleep hygiene counseling — target 7-8 hours quality sleep"
+    ],
+    "historyTimeline": [
+      {
+        "date": "Feb 15, 2026",
+        "title": "Stress & Mental Health Review",
+        "summary": "GAD-7 score of 14 indicates moderate anxiety. Cortisol elevated. CBT recommended.",
+        "riskLevel": "Low",
+        "doctor": "Dr. Priya Nair"
+      },
+      {
+        "date": "Dec 20, 2025",
+        "title": "Initial Psychiatric Screening",
+        "summary": "Occupational stress identified as primary trigger. Work-life balance counseling initiated.",
+        "riskLevel": "Low",
+        "doctor": "Dr. Suresh Balaji"
+      }
+    ],
+    "llmSummary": "Patient Lakshmi Patel, 35F, with moderate anxiety disorder. GAD-7 score of 14. Sleep quality significantly impaired. Cortisol mildly elevated. No cardiovascular or metabolic comorbidities. Psychological interventions are the primary recommended treatment."
+  },
+  {
+    "id": "PAT-005",
+    "name": "Ravi Chandrasekaran",
+    "age": 70,
+    "gender": "Male",
+    "disease": "Heart",
+    "riskLevel": "High",
+    "phone": "+91 54321 09876",
+    "email": "ravi.c@email.com",
+    "address": "5, Poes Garden, Chennai, Tamil Nadu",
+    "lastVisit": "2026-02-24",
+    "nextAppointment": "2026-02-28",
+    "assignedDoctor": "Dr. Priya Nair",
+    "profileImage": "",
+    "uploadedReports": [],
+    "clinicalMetrics": [
+      {
+        "label": "Heart Rate",
+        "value": "102",
+        "unit": "bpm",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "Blood Pressure",
+        "value": "158/100",
+        "unit": "mmHg",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "Troponin I",
+        "value": "0.12",
+        "unit": "ng/mL",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "BNP",
+        "value": "520",
+        "unit": "pg/mL",
+        "trend": "up",
+        "status": "critical"
+      },
+      {
+        "label": "SpO2",
+        "value": "93",
+        "unit": "%",
+        "trend": "down",
+        "status": "critical"
+      },
+      {
+        "label": "Creatinine",
+        "value": "1.8",
+        "unit": "mg/dL",
+        "trend": "up",
+        "status": "warning"
+      }
+    ],
+    "suggestedActions": [
+      "CRITICAL: Consider immediate hospital admission — check for ACS",
+      "12-lead ECG urgently — rule out STEMI/NSTEMI",
+      "Cardiology consult within 2 hours",
+      "Start dual antiplatelet therapy (aspirin + clopidogrel)",
+      "Supplemental oxygen therapy for SpO2 < 94%",
+      "Serial troponin measurements every 3 hours"
+    ],
+    "historyTimeline": [
+      {
+        "date": "Feb 24, 2026",
+        "title": "CRITICAL: Possible ACS",
+        "summary": "Troponin elevated, SpO2 dropping. Possible acute coronary syndrome. Hospitalization under review.",
+        "riskLevel": "High",
+        "doctor": "Dr. Priya Nair"
+      },
+      {
+        "date": "Feb 10, 2026",
+        "title": "Post-Stent Follow-up",
+        "summary": "6-month post-PCI follow-up. Dual antiplatelet therapy continued. EF stable at 45%.",
+        "riskLevel": "Medium",
+        "doctor": "Dr. Priya Nair"
+      }
+    ],
+    "llmSummary": "Patient Ravi Chandrasekaran, 70M, post-PCI with acute decompensation. Elevated troponin (0.12 ng/mL), elevated BNP (520 pg/mL), critically low SpO2 (93%). This is a medical emergency requiring immediate hospitalization and cardiology intervention."
+  }
+]

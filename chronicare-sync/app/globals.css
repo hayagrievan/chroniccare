@@ -1,0 +1,459 @@
+@import "tailwindcss";
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   PASTEL DESIGN TOKENS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+:root {
+  /* Core brand — softened */
+  --blue-deep: #3b5bdb;
+  --blue-mid: #4c6ef5;
+  --blue-pastel: #dbe4ff;
+  --blue-soft: #eef2ff;
+
+  /* Pastel semantics */
+  --red-pastel: #ffe3e3;
+  --red-text: #c92a2a;
+  --red-border: #ffa8a8;
+
+  --amber-pastel: #fff3bf;
+  --amber-text: #e67700;
+  --amber-border: #ffd43b;
+
+  --green-pastel: #d3f9d8;
+  --green-text: #2f9e44;
+  --green-border: #8ce99a;
+
+  --purple-pastel: #e5dbff;
+  --purple-text: #6741d9;
+  --purple-border: #b197fc;
+
+  --teal-pastel: #c5f6fa;
+  --teal-text: #0c8599;
+  --teal-border: #66d9e8;
+
+  --pink-pastel: #ffdeeb;
+  --pink-text: #c2255c;
+  --pink-border: #f783ac;
+
+  /* Backgrounds */
+  --bg-canvas: #f4f6fb;
+  --bg-card: #ffffff;
+  --bg-subtle: #f8f9ff;
+
+  /* Text */
+  --text-primary: #1a1f36;
+  --text-secondary: #525f7f;
+  --text-muted: #8898aa;
+
+  /* Borders */
+  --border-light: #e8ecf4;
+  --border-mid: #cdd5e0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* ━━ SCROLLBAR ━━ */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-subtle);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c8d0e0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+/* ━━ ANIMATIONS ━━ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(201, 42, 42, 0.4);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 8px rgba(201, 42, 42, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(201, 42, 42, 0);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.35s ease-out;
+}
+
+.fade-in-left {
+  animation: fadeInLeft 0.35s ease-out;
+}
+
+.pulse-alert {
+  animation: pulse-ring 2s infinite;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+/* ━━ LOADING SHIMMER ━━ */
+.shimmer {
+  background: linear-gradient(90deg, #f0f3fa 25%, #e4e8f5 50%, #f0f3fa 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+}
+
+/* ━━ GLASS / FROSTED CARD ━━ */
+.glass-card {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(14px) saturate(1.4);
+  -webkit-backdrop-filter: blur(14px) saturate(1.4);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* ━━ RISK BADGES — pastel ━━ */
+.risk-badge-high {
+  background: var(--red-pastel);
+  color: var(--red-text);
+  border: 1px solid var(--red-border);
+}
+
+.risk-badge-medium {
+  background: var(--amber-pastel);
+  color: var(--amber-text);
+  border: 1px solid var(--amber-border);
+}
+
+.risk-badge-low {
+  background: var(--green-pastel);
+  color: var(--green-text);
+  border: 1px solid var(--green-border);
+}
+
+/* ━━ STAT CARDS — pastel gradients ━━ */
+.stat-card-blue {
+  background: linear-gradient(135deg, #4c6ef5 0%, #748ffc 100%);
+  box-shadow: 0 8px 24px rgba(76, 110, 245, 0.25);
+}
+
+.stat-card-red {
+  background: linear-gradient(135deg, #f03e3e 0%, #ff6b6b 100%);
+  box-shadow: 0 8px 24px rgba(240, 62, 62, 0.22);
+}
+
+.stat-card-green {
+  background: linear-gradient(135deg, #2f9e44 0%, #51cf66 100%);
+  box-shadow: 0 8px 24px rgba(47, 158, 68, 0.22);
+}
+
+.stat-card-purple {
+  background: linear-gradient(135deg, #6741d9 0%, #9775fa 100%);
+  box-shadow: 0 8px 24px rgba(103, 65, 217, 0.22);
+}
+
+/* ━━ DISEASE CHIPS ━━ */
+.disease-heart {
+  color: var(--red-text);
+  background: var(--red-pastel);
+}
+
+.disease-bp {
+  color: var(--purple-text);
+  background: var(--purple-pastel);
+}
+
+.disease-sugar {
+  color: var(--amber-text);
+  background: var(--amber-pastel);
+}
+
+.disease-stress {
+  color: var(--teal-text);
+  background: var(--teal-pastel);
+}
+
+/* ━━ METRIC STATUS CHIPS ━━ */
+.metric-critical {
+  background: var(--red-pastel);
+  color: var(--red-text);
+  border: 1px solid var(--red-border);
+}
+
+.metric-warning {
+  background: var(--amber-pastel);
+  color: var(--amber-text);
+  border: 1px solid var(--amber-border);
+}
+
+.metric-normal {
+  background: var(--green-pastel);
+  color: var(--green-text);
+  border: 1px solid var(--green-border);
+}
+
+/* ━━ SIDEBAR ACTIVE ━━ */
+.nav-active {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* ━━ TIMELINE ━━ */
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 40px;
+  bottom: -10px;
+  width: 2px;
+  background: linear-gradient(to bottom, #4c6ef5, var(--border-light));
+}
+
+.timeline-item:last-child::before {
+  display: none;
+}
+
+/* ━━ PASTEL PAGE HEADERS ━━ */
+.page-header {
+  background: linear-gradient(135deg, #ffffff 0%, #f0f4ff 100%);
+  border-bottom: 1px solid var(--border-light);
+}
+
+/* ━━ INPUT FOCUS GLOW ━━ */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #748ffc !important;
+  box-shadow: 0 0 0 3px rgba(76, 110, 245, 0.12) !important;
+  outline: none;
+}
+
+/* ━━ BUTTON HOVER LIFT ━━ */
+.btn-primary {
+  background: linear-gradient(135deg, #4c6ef5, #748ffc);
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 12px rgba(76, 110, 245, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(76, 110, 245, 0.38);
+}
+
+/* ━━ CARD HOVER ━━ */
+.card-hover {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(76, 110, 245, 0.12);
+}
+
+/* ━━ GROQ AI STREAMING CURSOR ━━ */
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+.ai-cursor::after {
+  content: '▋';
+  display: inline;
+  animation: blink 0.7s step-end infinite;
+  color: #4c6ef5;
+  font-size: 0.85em;
+  margin-left: 1px;
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   CHRONICARE AI — NEW ANIMATION SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+/* Fade-in entry animation */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeInUp 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+/* Spin utility for loading spinners */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.spin {
+  animation: spin 0.8s linear infinite;
+}
+
+/* PHRN Badge glow pulse */
+@keyframes phrnGlow {
+  0%, 100% { box-shadow: 0 2px 8px rgba(59,91,219,0.25); }
+  50%       { box-shadow: 0 4px 16px rgba(59,91,219,0.5); }
+}
+
+.phrn-glow {
+  animation: phrnGlow 2s ease-in-out infinite;
+}
+
+/* Health Score Gauge shimmer on load */
+@keyframes gaugeShimmer {
+  0%   { opacity: 0.4; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+
+.gauge-loading {
+  animation: gaugeShimmer 1.5s ease-in-out infinite;
+}
+
+/* Adherence heatmap cells */
+.adherence-cell {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.adherence-cell:hover {
+  transform: scale(1.3);
+  opacity: 1 !important;
+}
+
+.adherence-cell-taken    { background: #2f9e44; }
+.adherence-cell-missed   { background: #c92a2a; }
+.adherence-cell-skipped  { background: #e67700; }
+.adherence-cell-pending  { background: #e8ecf4; }
+.adherence-cell-empty    { background: #f1f5f9; }
+
+/* XAI bar chart bar shimmer */
+@keyframes barReveal {
+  from { width: 0; }
+}
+
+.xai-bar { animation: barReveal 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+
+/* Risk meter tick marks */
+.risk-tick {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(255,255,255,0.8);
+}
+
+/* Forecast card trend badge */
+.trend-improving { background: #d3f9d8; color: #2f9e44; }
+.trend-stable    { background: #fff3bf; color: #e67700; }
+.trend-deteriorating { background: #ffe3e3; color: #c92a2a; }
+
+/* Consent status badges */
+.consent-approved { background: #d3f9d8; color: #2f9e44; border: 1px solid #8ce99a; }
+.consent-pending  { background: #fff3bf; color: #e67700; border: 1px solid #ffd43b; }
+.consent-revoked  { background: #ffe3e3; color: #c92a2a; border: 1px solid #ffa8a8; }
+
+/* Patient portal accent (teal/purple dominant) */
+.patient-portal-accent {
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+}
+
+/* Page header glass effect */
+.page-header {
+  background: rgba(248, 250, 252, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #e8ecf4;
+}
+
+/* Card stat highlight */
+.stat-highlight {
+  background: linear-gradient(135deg, #eef2ff, #f3e8ff);
+  border: 1px solid #c7d2fe;
+}
+
+/* Pulse dot for real-time indicators */
+@keyframes pulseDot {
+  0%   { transform: scale(1); opacity: 1; }
+  70%  { transform: scale(2); opacity: 0; }
+  100% { transform: scale(1); opacity: 0; }
+}
+
+.pulse-dot::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: currentColor;
+  animation: pulseDot 1.5s ease-out infinite;
+}

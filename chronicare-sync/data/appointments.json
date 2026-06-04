@@ -1,0 +1,98 @@
+[
+  {
+    "appointmentId": "A001",
+    "patientId": "PAT-005",
+    "patientName": "Ravi Chandrasekaran",
+    "disease": "Heart",
+    "riskLevel": "High",
+    "date": "2026-02-27",
+    "time": "09:00",
+    "type": "Urgent Review",
+    "status": "Confirmed",
+    "doctor": "Dr. Priya Nair"
+  },
+  {
+    "appointmentId": "A002",
+    "patientId": "PAT-003",
+    "patientName": "Venkatesh Iyer",
+    "disease": "BP",
+    "riskLevel": "High",
+    "date": "2026-02-27",
+    "time": "10:30",
+    "type": "Follow-up",
+    "status": "Confirmed",
+    "doctor": "Dr. Priya Nair"
+  },
+  {
+    "appointmentId": "A003",
+    "patientId": "PAT-001",
+    "patientName": "Arjun Sharma",
+    "disease": "Heart",
+    "riskLevel": "High",
+    "date": "2026-02-27",
+    "time": "12:00",
+    "type": "Cardiac Check",
+    "status": "Pending",
+    "doctor": "Dr. Priya Nair"
+  },
+  {
+    "appointmentId": "A004",
+    "patientId": "PAT-002",
+    "patientName": "Meera Krishnamurthy",
+    "disease": "Sugar",
+    "riskLevel": "Medium",
+    "date": "2026-02-27",
+    "time": "14:30",
+    "type": "Diabetes Review",
+    "status": "Completed",
+    "doctor": "Dr. Priya Nair"
+  },
+  {
+    "appointmentId": "A005",
+    "patientId": "PAT-004",
+    "patientName": "Lakshmi Patel",
+    "disease": "Stress",
+    "riskLevel": "Low",
+    "date": "2026-02-28",
+    "time": "09:30",
+    "type": "Counselling",
+    "status": "Confirmed",
+    "doctor": "Dr. Priya Nair"
+  },
+  {
+    "appointmentId": "A006",
+    "patientId": "PAT-006",
+    "patientName": "Divya Menon",
+    "disease": "Sugar",
+    "riskLevel": "Low",
+    "date": "2026-03-01",
+    "time": "11:00",
+    "type": "Routine Check",
+    "status": "Confirmed",
+    "doctor": "Dr. Priya Nair"
+  },
+  {
+    "appointmentId": "A007",
+    "patientId": "PAT-001",
+    "patientName": "Arjun Sharma",
+    "disease": "Heart",
+    "riskLevel": "High",
+    "date": "2026-03-05",
+    "time": "10:00",
+    "type": "Echo follow-up",
+    "status": "Confirmed",
+    "doctor": "Dr. Priya Nair"
+  },
+  {
+    "appointmentId": "A008",
+    "patientId": "PAT-002",
+    "patientName": "Meera Krishnamurthy",
+    "disease": "Sugar",
+    "riskLevel": "Medium",
+    "date": "2026-03-10",
+    "time": "15:00",
+    "type": "HbA1c Review",
+    "status": "Pending",
+    "doctor": "Dr. Priya Nair"
+  }
+]

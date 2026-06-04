@@ -1,0 +1,56 @@
+[
+  {
+    "phrn": "PHRN-IND-2026-000001",
+    "patientId": "PAT-001",
+    "patientName": "Arjun Sharma",
+    "issuedDate": "2026-01-01",
+    "isActive": true,
+    "country": "IND",
+    "year": "2026"
+  },
+  {
+    "phrn": "PHRN-IND-2026-000002",
+    "patientId": "PAT-002",
+    "patientName": "Meera Krishnamurthy",
+    "issuedDate": "2026-01-01",
+    "isActive": true,
+    "country": "IND",
+    "year": "2026"
+  },
+  {
+    "phrn": "PHRN-IND-2026-000003",
+    "patientId": "PAT-003",
+    "patientName": "Venkatesh Iyer",
+    "issuedDate": "2026-01-01",
+    "isActive": true,
+    "country": "IND",
+    "year": "2026"
+  },
+  {
+    "phrn": "PHRN-IND-2026-000004",
+    "patientId": "PAT-004",
+    "patientName": "Lakshmi Patel",
+    "issuedDate": "2026-01-01",
+    "isActive": true,
+    "country": "IND",
+    "year": "2026"
+  },
+  {
+    "phrn": "PHRN-IND-2026-000005",
+    "patientId": "PAT-005",
+    "patientName": "Ravi Chandrasekaran",
+    "issuedDate": "2026-01-01",
+    "isActive": true,
+    "country": "IND",
+    "year": "2026"
+  },
+  {
+    "phrn": "PHRN-IND-2026-000006",
+    "patientId": "PAT-670586",
+    "patientName": "Diabetes Profile sample report",
+    "issuedDate": "2026-01-01",
+    "isActive": true,
+    "country": "IND",
+    "year": "2026"
+  }
+]

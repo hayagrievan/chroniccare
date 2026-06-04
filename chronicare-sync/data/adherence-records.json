@@ -1,0 +1,242 @@
+[
+  {
+    "recordId": "ADH-PAT001-20260603",
+    "patientId": "PAT-001",
+    "phrn": "PHRN-IND-2026-000001",
+    "date": "2026-06-03",
+    "medications": [
+      {
+        "medicineId": "MED-003",
+        "medicineName": "Metoprolol",
+        "dose": "50mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-03T08:12:00.000Z"
+      },
+      {
+        "medicineId": "MED-001",
+        "medicineName": "Aspirin",
+        "dose": "75mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-03T08:12:00.000Z"
+      },
+      {
+        "medicineId": "MED-005",
+        "medicineName": "Clopidogrel",
+        "dose": "75mg",
+        "scheduled": "08:00",
+        "status": "missed",
+        "recordedAt": null
+      },
+      {
+        "medicineId": "MED-002",
+        "medicineName": "Atorvastatin",
+        "dose": "20mg",
+        "scheduled": "20:00",
+        "status": "pending",
+        "recordedAt": null
+      }
+    ]
+  },
+  {
+    "recordId": "ADH-PAT001-20260602",
+    "patientId": "PAT-001",
+    "phrn": "PHRN-IND-2026-000001",
+    "date": "2026-06-02",
+    "medications": [
+      {
+        "medicineId": "MED-003",
+        "medicineName": "Metoprolol",
+        "dose": "50mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-02T08:05:00.000Z"
+      },
+      {
+        "medicineId": "MED-001",
+        "medicineName": "Aspirin",
+        "dose": "75mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-02T08:05:00.000Z"
+      },
+      {
+        "medicineId": "MED-005",
+        "medicineName": "Clopidogrel",
+        "dose": "75mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-02T08:05:00.000Z"
+      },
+      {
+        "medicineId": "MED-002",
+        "medicineName": "Atorvastatin",
+        "dose": "20mg",
+        "scheduled": "20:00",
+        "status": "taken",
+        "recordedAt": "2026-06-02T20:10:00.000Z"
+      }
+    ]
+  },
+  {
+    "recordId": "ADH-PAT001-20260601",
+    "patientId": "PAT-001",
+    "phrn": "PHRN-IND-2026-000001",
+    "date": "2026-06-01",
+    "medications": [
+      {
+        "medicineId": "MED-003",
+        "medicineName": "Metoprolol",
+        "dose": "50mg",
+        "scheduled": "08:00",
+        "status": "missed",
+        "recordedAt": null
+      },
+      {
+        "medicineId": "MED-001",
+        "medicineName": "Aspirin",
+        "dose": "75mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-01T09:20:00.000Z"
+      },
+      {
+        "medicineId": "MED-005",
+        "medicineName": "Clopidogrel",
+        "dose": "75mg",
+        "scheduled": "08:00",
+        "status": "missed",
+        "recordedAt": null
+      },
+      {
+        "medicineId": "MED-002",
+        "medicineName": "Atorvastatin",
+        "dose": "20mg",
+        "scheduled": "20:00",
+        "status": "skipped",
+        "recordedAt": null
+      }
+    ]
+  },
+  {
+    "recordId": "ADH-PAT002-20260603",
+    "patientId": "PAT-002",
+    "phrn": "PHRN-IND-2026-000002",
+    "date": "2026-06-03",
+    "medications": [
+      {
+        "medicineId": "MED-011",
+        "medicineName": "Metformin",
+        "dose": "500mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-03T08:00:00.000Z"
+      },
+      {
+        "medicineId": "MED-014",
+        "medicineName": "Sitagliptin",
+        "dose": "100mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-03T08:00:00.000Z"
+      },
+      {
+        "medicineId": "MED-011",
+        "medicineName": "Metformin",
+        "dose": "500mg",
+        "scheduled": "20:00",
+        "status": "pending",
+        "recordedAt": null
+      }
+    ]
+  },
+  {
+    "recordId": "ADH-PAT003-20260603",
+    "patientId": "PAT-003",
+    "phrn": "PHRN-IND-2026-000003",
+    "date": "2026-06-03",
+    "medications": [
+      {
+        "medicineId": "MED-007",
+        "medicineName": "Amlodipine",
+        "dose": "5mg",
+        "scheduled": "08:00",
+        "status": "missed",
+        "recordedAt": null
+      },
+      {
+        "medicineId": "MED-009",
+        "medicineName": "Hydrochlorothiazide",
+        "dose": "25mg",
+        "scheduled": "08:00",
+        "status": "missed",
+        "recordedAt": null
+      }
+    ]
+  },
+  {
+    "recordId": "ADH-PAT004-20260603",
+    "patientId": "PAT-004",
+    "phrn": "PHRN-IND-2026-000004",
+    "date": "2026-06-03",
+    "medications": [
+      {
+        "medicineId": "MED-016",
+        "medicineName": "Escitalopram",
+        "dose": "10mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-03T07:55:00.000Z"
+      }
+    ]
+  },
+  {
+    "recordId": "ADH-PAT005-20260603",
+    "patientId": "PAT-005",
+    "phrn": "PHRN-IND-2026-000005",
+    "date": "2026-06-03",
+    "medications": [
+      {
+        "medicineId": "MED-003",
+        "medicineName": "Metoprolol",
+        "dose": "50mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-03T08:30:00.000Z"
+      },
+      {
+        "medicineId": "MED-001",
+        "medicineName": "Aspirin",
+        "dose": "75mg",
+        "scheduled": "08:00",
+        "status": "taken",
+        "recordedAt": "2026-06-03T08:30:00.000Z"
+      },
+      {
+        "medicineId": "MED-004",
+        "medicineName": "Ramipril",
+        "dose": "5mg",
+        "scheduled": "08:00",
+        "status": "missed",
+        "recordedAt": null
+      }
+    ]
+  },
+  {
+    "recordId": "ADH-PAT-001-20260603",
+    "patientId": "PAT-001",
+    "phrn": "PHRN-IND-2026-000001",
+    "date": "2026-06-03",
+    "medications": [
+      {
+        "medicineId": "MED-002",
+        "medicineName": "Atorvastatin",
+        "dose": "20mg",
+        "scheduled": "20:00",
+        "status": "skipped",
+        "recordedAt": "2026-06-03T13:38:06.334Z"
+      }
+    ]
+  }
+]
